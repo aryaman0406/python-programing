@@ -1,0 +1,13 @@
+goodcounter=0
+badcounter=0
+
+classofthemovie="good"
+if(goodcounter>badcounter):
+  pass
+else:
+ classofmovie="bad"
+match(classofmovie):
+  case 'good':
+    print("movie is good")
+  case 'bad':
+    print("movie is bad")
